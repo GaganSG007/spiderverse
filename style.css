@@ -12,9 +12,8 @@ html , body{
     width: 100%;
 }
 body{
-    background-color: #F7F7F7;
+    background-image: url(1032569.png);
 }
-
 #nav{
     height: 100px;
     width: 100%;
@@ -43,16 +42,19 @@ body{
     text-transform: uppercase;
 
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     font-weight: 400;
     font-size: 14px;
     margin-right: 45px;
 }
 
 #icons{
+    font-family: futura;
+    font-size: large;
+    color: rgba(8, 122, 228, 0.774);
     padding: 10px;
     border-radius: 50px;
-    background-color: #fff;
+    background-color: #000000;
 }
 #nav2 #icons i{
     font-size: 18px;
@@ -62,7 +64,7 @@ body{
 #cursor{
     height: 150px;
     width: 150px;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
     position: fixed;
     transform: translate(-50%,-50%) scale(0);
@@ -78,7 +80,8 @@ body{
 
 #page1 h1{
     color: #000000;
-    font-size: 13vw;
+    background-color: rgb(255, 255, 255);
+    font-size: 12.3vw;
     text-transform: uppercase;
     font-family: futura;
     line-height: 10vh;
@@ -100,7 +103,7 @@ body{
 }
 
 #video-container #play{
-    padding: 3vw 2vw;
+    padding: 0.5vw 0.8vw;
     background-color: black;
     color: #fff;
     font-size: 1.3vw;
@@ -144,9 +147,13 @@ body{
     height: 55px;
     border-radius: 50px;
     width: 25%;
+    color: white;
+    text-align: center;
+    font-family: FUTURA;
+    font-size: 2vw;
     position: absolute;
     z-index: 9;
-    background-color: rgba(255, 72, 0, 0.514);
+    background-color: rgba(0, 140, 255, 0.493);
 }
 
 #page3{
