@@ -216,7 +216,7 @@ body{
     #icons{
         padding: 10px;
         border-radius: 50px;
-        background-color: #fff;
+        background-color: black;
     }
     #nav2 #icons i{
         font-size: 18px;
@@ -232,7 +232,7 @@ body{
     }
 
     #page1 h1{
-        font-size: 15vw;
+        font-size: 14vw;
     }
 
     #video-container{
@@ -242,17 +242,6 @@ body{
 
     #video-container video{
         height: 25vh;
-    }
-
-    #video-container #play{
-        padding: 9.5vw 7.2vw;
-        font-size: 4.5vw;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        opacity: 1;
-        scale: 1;
-        transform: translate(-50%,-50%);
     }
 
     #page2{
@@ -282,9 +271,11 @@ body{
         height: 55px;
         border-radius: 50px;
         width: 70%;
+        font-family: futura;
+        font-size: 4.8vh;
         position: absolute;
         z-index: 9;
-        background-color: rgba(255, 72, 0, 0.514);
+        background-color: rgba(0, 140, 255, 0.493);
     }
     #page3{
         min-height: 120vh;
@@ -296,8 +287,8 @@ body{
         flex-wrap: wrap;
     }
     .child{
-        height: 54vh;
-        width: 80vw;
+        height: 50vh;
+        width: 70vw;
         position: relative;
         padding: 15vw;
         display: flex;
